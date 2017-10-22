@@ -2,13 +2,13 @@
 
 Personal / Resume Website.
 
-Website built using:
-  • HTML 5
-  • Bootstrap 4
-  • CSS 3
-  • ScrollMagic
-  • JavaScript
-  • PHP (For Mail Sending)
+Website built using: <br />
+  • HTML 5 <br />
+  • Bootstrap 4 <br />
+  • CSS 3 <br />
+  • ScrollMagic <br />
+  • JavaScript <br />
+  • PHP (For Mail Sending) <br />
   
 Built using webStorm.
 
