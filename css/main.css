@@ -1,0 +1,462 @@
+/* Miscellaneous */
+.container {
+    max-width: 1280px;
+    padding: 40px 180px;
+}
+
+p.lead {
+    text-align: center;
+    color: slategray;
+    padding-bottom: 3.5%;
+    border-bottom: 1px solid rgba(112, 128, 144, .15);
+}
+
+p.lead a {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+p.lead a:hover {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b {
+    /*font-family: 'Open Sans', sans-serif !important;*/
+    margin-bottom: 20px;
+}
+
+h1, h4 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+h2, h3 {
+    font-weight: 300;
+    color: slategray;
+}
+
+h2 {
+    font-size: 54px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+a:hover {
+    color: #999999;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*End Misc*/
+
+/* Begin MAIN HOME PAGE */
+html, body {
+    height: 100%;
+}
+
+.jumbotron {
+    height: 100vh;
+    background: no-repeat center right fixed url(../img/background.jpg);
+
+    /*-webkit-background-size: 100%;*/
+    /*-moz-background-size: 100%;*/
+    /*-o-background-size: 100%;*/
+    /*background-size: 100%;*/
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/background.jpg', sizingMethod='scale')";
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/background.jpg', sizingMethod=scale);
+
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.jumbotron .container {
+    position: relative;
+    top: 28%;
+    z-index: 4;
+    text-align: center;
+}
+
+.jumbotron .container > * {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.jumbotron .container h1 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+    display: inline-block;
+}
+
+.jumbotron .overlay {
+    background-color: slategray;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.75;
+    filter: alpha(opacity=75);
+    z-index: 2;
+}
+
+.bounce-down {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+
+    height: 80px;
+    width: 110px;
+
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    z-index: 6;
+}
+
+/* End MAIN HOME PAGE */
+
+/* Begin PROFILE PAGE */
+
+#profile .row > div {
+    margin-bottom: 20px;
+}
+
+#profile .row > div img {
+    width: 100%;
+    max-width: 246px;
+    height: auto;
+}
+
+.img-thumbnail {
+    background: slategray;
+}
+
+.myImage {
+    width: 100%;
+    height: auto;
+    left: 0;
+    right: 0;
+}
+
+#navigation {
+
+    border: 0;
+    position: absolute;
+    /*top: 100%;*/
+    right: 5%;
+    width: 110px;
+    z-index: 999;
+}
+
+#navigation ul {
+    margin: 0;
+    padding: 0;
+}
+
+#navigation li {
+    list-style: none;
+}
+
+.active {
+    background: slategray;
+}
+
+ul.top-level {
+    background: transparent;
+}
+
+ul.top-level li {
+    margin: 0 0 5px 0;
+    border: solid 2px slategray;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+#navigation a {
+    color: black;
+    cursor: pointer;
+    display: block;
+    height: 25px;
+    line-height: 25px;
+    text-indent: 10px;
+    text-decoration: none;
+    width: 100%;
+}
+
+#navigation a:hover {
+    text-decoration: none;
+}
+
+#navigation li:hover {
+    background: slategray;
+    position: relative;
+}
+
+ul.sub-level {
+    display: none;
+
+}
+
+li:hover .sub-level {
+    background: #fff;
+    border: 1px solid #fff;
+    display: block;
+    position: absolute;
+    left: 150px;
+    top: 5px;
+}
+
+ul.sub-level li {
+    border: none;
+    float: left;
+    width: 150px;
+
+}
+
+/* End PROFILE PAGE */
+
+/* Begin EXPERIENCES PAGE */
+#experiences {
+    background: rgb(255, 235, 205);
+}
+
+#experiences .experience {
+    margin-bottom: 20px;
+}
+
+#experiences .experience p > strong {
+    display: block;
+    padding-top: 8px;
+    margin-bottom: 10px;
+}
+
+#experiences .experience .experience-details {
+    display: block;
+    margin-top: 6px;
+}
+
+#experiences .experience .experience-details * {
+    color: slategray;
+}
+
+#experiences .experience .experience-details .seperator {
+    color: #BCBCBC;
+}
+
+.experience_container {
+    padding: 0;
+    margin-bottom: 16px;
+}
+
+/* End EXPERIENCES PAGE*/
+
+/* Being PROJECTS */
+
+.img_overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: slategray;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)"; /* IE 8 */
+    filter: alpha(opacity=90); /* IE 5-7 */
+    -moz-opacity: 0.9; /* Netscape */
+    -khtml-opacity: 0.9; /* Safari 1.x */
+    opacity: 0.9; /* Good browsers */
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.contain {
+    position: relative;
+}
+
+.contain:hover .img_overlay {
+    width: 100%;
+}
+
+.text {
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+/* End PROJECTS*/
+
+/* Begin SKILLS*/
+#skills {
+    background: rgb(255, 235, 205);
+}
+
+#abilities ul > li {
+    min-height: 30px;
+    padding: 3px 0;
+}
+
+#abilities ul > li:hover {
+    background: lightgrey;
+}
+
+#abilities ul > li .ability-title {
+    display: inline-block;
+    width: 60%;
+}
+
+#abilities ul > li .ability-score {
+    float: right;
+}
+
+#abilities ul > li .ability-score .fa-star {
+    color: slategray;
+}
+
+#abilities ul > li:hover .ability-score .glyphicon {
+    margin-left: 2px;
+}
+
+/* End SKILLS*/
+
+/* Begin Contact Me */
+
+#success_message {
+    display: none;
+}
+
+.fade.in {
+    opacity: 1;
+}
+
+.modal.in .modal-dialog {
+    -webkit-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+
+.modal-backdrop.in {
+    opacity: 0.5;
+}
+
+#contact {
+    background: #6D7993;
+}
+
+label {
+    color: white;
+}
+
+/* End Contact Me*/
+
+/* Begin MOBILE */
+@media (max-width: 768px) {
+    .vertical-center:before {
+        height: auto;
+        /* Or */
+        display: none;
+    }
+
+    .jumbotron .container {
+        top: 20%;
+        padding-bottom: 0;
+    }
+
+    .jumbotron .bounce-down {
+        width: 100%;
+        right: 0;
+    }
+
+    .jumbotron:before {
+        bottom: 100px;
+        left: 20px;
+        right: 20px;
+        top: 20px;
+    }
+
+    .jumbotron .container {
+        top: 20%;
+        padding-top: 0;
+    }
+
+    .jumbotron .scroll-down {
+        width: 100%;
+        right: 0;
+    }
+
+    .navbar {
+        left: 0;
+        width: 100%;
+    }
+
+    .navbar .nav > li {
+        height: 60px;
+    }
+
+    .navbar .nav > li a {
+        height: 60px;
+        text-align: center;
+        padding-top: 20px;
+        font-weight: 600;
+        color: #FFFFFF;
+    }
+
+    .fixed .navbar {
+        top: 0;
+    }
+
+    .container {
+        padding: 60px 20px;
+        min-width: 280px;
+    }
+
+    #profile .row * {
+        text-align: center;
+    }
+
+    #navigation {
+        visibility: hidden;
+    }
+}
+
+@media only screen and (orientation: portrait) and (max-width: 767px) {
+    .jumbotron {
+        -webkit-background-size: auto 150%;
+        background-attachment: scroll;
+    }
+}
+
+@media only screen and (orientation: landscape) and (max-width: 767px) {
+
+    .jumbotron {
+        -webkit-background-size: 150% auto;
+        background-attachment: scroll;
+    }
+
+    .jumbotron .lead {
+        display: none;
+    }
+}
+
+/* End MOBILE*/
+
