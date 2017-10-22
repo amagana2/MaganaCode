@@ -6,6 +6,7 @@ Website built using: <br />
   • HTML 5 <br />
   • Bootstrap 4 <br />
   • CSS 3 <br />
+  • Animate.css <br />
   • ScrollMagic <br />
   • JavaScript <br />
   • PHP (For Mail Sending) <br />
