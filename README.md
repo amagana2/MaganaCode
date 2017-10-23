@@ -1,8 +1,8 @@
 # MaganaCode
 
-Personal / Resume Website.
+## Personal / Resume Website.
 
-Website built using: <br />
+### Website built using: <br />
   • HTML 5 <br />
   • Bootstrap 4 <br />
   • CSS 3 <br />
@@ -13,4 +13,4 @@ Website built using: <br />
   
 Built using webStorm.
 
-Any questions, comments, or concerns can be sent to: amagana286@gmail.com
+<small> Any questions, comments, or concerns can be sent to: amagana286@gmail.com </small>
