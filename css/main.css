@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
 /* Miscellaneous */
 .container {
     max-width: 1280px;
     padding: 40px 180px;
+}
+
+p {
+    font-family: 'Roboto:400', sans-serif;
 }
 
 p.lead {
@@ -9,6 +15,7 @@ p.lead {
     color: slategray;
     padding-bottom: 3.5%;
     border-bottom: 1px solid rgba(112, 128, 144, .15);
+    font-family: "Roboto", sans-serif;
 }
 
 p.lead a {
@@ -21,7 +28,7 @@ p.lead a:hover {
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b {
-    /*font-family: 'Open Sans', sans-serif !important;*/
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 20px;
 }
 
@@ -52,6 +59,10 @@ ul.no-bullets {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 /*End Misc*/
@@ -258,6 +269,10 @@ ul.sub-level li {
     color: #BCBCBC;
 }
 
+#experiences span {
+    font-family: 'Roboto', sans-serif;
+}
+
 .experience_container {
     padding: 0;
     margin-bottom: 16px;
@@ -365,6 +380,7 @@ ul.sub-level li {
 
 label {
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* End Contact Me*/
