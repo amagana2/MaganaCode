@@ -386,23 +386,23 @@ label {
 /* End Contact Me*/
 
 /* Begin MOBILE */
-@media (max-width: 768px) {
-    .vertical-center:before {
-        height: auto;
-        /* Or */
-        display: none;
+
+@media only screen and (max-width: 3000px) {
+    /* place CSS for desktop */
+    .col-md-6 {
+        padding-left: 2%;
     }
 
-    .jumbotron .container {
-        top: 20%;
-        padding-bottom: 0;
-    }
+}
 
-    .jumbotron .bounce-down {
-        width: 100%;
-        right: 0;
-    }
 
+@media (max-width: 1200px) {
+    #interests .interest-content {
+        padding: 20px 0px;
+    }
+}
+
+@media (max-width: 767px) {
     .jumbotron:before {
         bottom: 100px;
         left: 20px;
@@ -412,16 +412,32 @@ label {
 
     .jumbotron .container {
         top: 20%;
-        padding-top: 0;
+        padding-top: 0px;
+    }
+
+    .container .row .button_lg{
+        padding-top: 5%;
+    }
+
+    #mobile_container .row #bottom_project {
+        padding-top: 10%;
+    }
+
+    #navigation {
+        visibility: hidden;
+    }
+
+    a.btn.btn-outline-success.btn-lg {
+        margin-bottom: 10%;
     }
 
     .jumbotron .scroll-down {
         width: 100%;
-        right: 0;
+        right: 0px;
     }
 
     .navbar {
-        left: 0;
+        left: 0px;
         width: 100%;
     }
 
@@ -437,8 +453,40 @@ label {
         color: #FFFFFF;
     }
 
+    .ability-score .fa-star {
+        font-size: 0.5em;
+    }
+
+    div#row_details.container {
+        padding-top: 0;
+    }
+
+    div#profile.container {
+        padding-bottom: 5%;
+    }
+
+    div.container.experience_container {
+        padding-top: 5%;
+    }
+
+    div#mobile_container.container.text-center {
+        padding-top: 5%;
+    }
+
+    #projects div.container {
+        padding-bottom: 0;
+    }
+
+    #skills div.container {
+        padding-bottom: 0;
+    }
+
+    div#abilities.container {
+        padding-top: 5%;
+    }
+
     .fixed .navbar {
-        top: 0;
+        top: 0px;
     }
 
     .container {
@@ -446,12 +494,52 @@ label {
         min-width: 280px;
     }
 
+    .hidden-phone {
+        display: none;
+    }
+
     #profile .row * {
         text-align: center;
     }
 
-    #navigation {
-        visibility: hidden;
+    #experiences .experience .experience-details > span {
+        display: block;
+        margin-bottom: 6px;
+    }
+
+    #experiences .experience .experience-details .seperator {
+        display: none;
+    }
+
+    #interests .left {
+        float: none;
+    }
+
+    #interests .right {
+        float: none;
+    }
+
+    #interests > * {
+        text-align: center;
+    }
+
+    #interests img {
+        width: 50%;
+        height: auto;
+        float: none !important;
+    }
+
+    #interests .interest-content {
+        padding: 20px 0px;
+    }
+
+    #contact {
+        padding-bottom: 60px;
+    }
+
+    #contact a .icon {
+        float: left;
+        margin-right: 10px;
     }
 }
 
@@ -459,6 +547,9 @@ label {
     .jumbotron {
         -webkit-background-size: auto 150%;
         background-attachment: scroll;
+    }
+    a.btn.btn-outline-success.btn-lg {
+        margin-bottom: 10%;
     }
 }
 
@@ -472,7 +563,9 @@ label {
     .jumbotron .lead {
         display: none;
     }
+    a.btn.btn-outline-success.btn-lg {
+        margin-bottom: 10%;
+    }
 }
 
-/* End MOBILE*/
 

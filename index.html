@@ -2,6 +2,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
     <title>Andrew Magana - Resume</title>
 
     <!-- jQuery library -->
@@ -48,7 +49,7 @@
 
         <div class="overlay"></div>
 
-        <a href="#profile" class="bounce-down animated bounce infinite">
+        <a href="#profile" id="bouncy_hand" class="bounce-down animated bounce infinite">
             <i class="fa fa-hand-o-down"></i>
         </a>
     </div>
@@ -88,8 +89,8 @@
                 <img class=" img-responsive img-thumbnail" src="img/profile_pic.png" alt="Andrew Magana"/>
             </div>
 
-            <div class="col-lg">
-                <h3>What I Do:</h3>
+            <div class="col-lg button_lg">
+                <h3 id="bottom_h3">What I Do:</h3>
                 <p>I'm currently working as an Application Developer at Automatic Data Processing, aka ADP. I
                     constantly have a need for learning something new - technical or not. My favorite work is done
                     on the web, however, I have experience with other technologies too.
@@ -147,7 +148,8 @@
                         <span>
                             During my time in high school, I had a primary focus on sports and my education. I graduated one of the top of my class of ~460,
                             and I was accepted my senior year to attend University of Kentucky for their pharmaceutical science program. However, due to many
-                            circumstances, I decided against studying in the medical field, but settled for engineering - which at the time was my weakness.
+                            circumstances, I decided against studying in the medical field, but pursued engineering - which has become not only my profession, but
+                            a passion as well.
                         </span>
                     </p>
                 </div>
@@ -252,9 +254,9 @@
         <p class="lead">View my work</p>
     </div>
 
-    <div class="container text-center">
+    <div class="container text-center" id="mobile_container">
         <div class="row">
-            <div class="col-md-6 col-sm-12">
+            <div class="col-lg">
                 <div class="contain">
                     <a href="http://marilynmunoz.com" target="_blank">
                         <img class="img-thumbnail" src="img/marilynmunoz_screenshot.png"/>
@@ -266,7 +268,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-12">
+            <div class="col-lg" id="bottom_project">
                 <div class="contain">
                     <a href="http://hairbygel.com">
                         <img class="img-thumbnail" src="img/hairbygel_screenshot.png"/>
@@ -635,7 +637,7 @@
                     <div class="controls">
 
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-lg">
                                 <div class="form-group">
                                     <label for="form_name">First Name *</label>
                                     <input id="form_name" type="text" name="name" class="form-control"
@@ -644,7 +646,7 @@
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-lg">
                                 <div class="form-group">
                                     <label for="form_lastname">Last Name *</label>
                                     <input id="form_lastname" type="text" name="surname" class="form-control"
@@ -655,7 +657,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-lg">
                                 <div class="form-group">
                                     <label for="form_email">Email *</label>
                                     <input id="form_email" type="email" name="email" class="form-control"
@@ -664,7 +666,7 @@
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-lg">
                                 <div class="form-group">
                                     <label for="form_phone">Phone</label>
                                     <input id="form_phone" type="tel" name="phone" class="form-control"
@@ -674,7 +676,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-12">
+                            <div class="col-lg">
                                 <div class="form-group">
                                     <label for="form_message">Message *</label>
                                     <textarea id="form_message" name="message" class="form-control"
@@ -684,7 +686,7 @@
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <input type="submit" class="btn btn-success btn-send" value="Send message">
+                                <input type="submit" id="contact_button" class="btn btn-success btn-send" value="Send message">
                             </div>
                         </div>
                         <div class="row">
