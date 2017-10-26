@@ -395,10 +395,13 @@ label {
 
 }
 
-
 @media (max-width: 1200px) {
     #interests .interest-content {
         padding: 20px 0px;
+    }
+
+    #navigation {
+        visibility: hidden;
     }
 }
 
@@ -483,6 +486,10 @@ label {
 
     div#abilities.container {
         padding-top: 5%;
+    }
+
+    div#abilities.container hr {
+        margin-bottom: 0;
     }
 
     .fixed .navbar {
